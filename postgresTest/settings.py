@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-y*rxe6-0%710fdy)#70qqilj3s0$5-xb_xy*h(bk!cr!&_^r+q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mpsn-iq-org-0aeb.onrender.com','mpsn-iq.onrender.com',' mpsn-iq-org.onrender.com', '127.0.0.1', 'www.mpsn-iq.org', 'mpsn-iq.org', 'mpsn-iq:10000', 'localhost']
+ALLOWED_HOSTS = ['mpsn-iq-org-0aeb.onrender.com','localhost']
 
 
 # Application definition
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'postgresTest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mpsn_data_poc7',
-        'USER': 'mpsn_data_poc7_user',
-        'PASSWORD': 'lv94lwsO8qQ7AZy80YXAwWAgx8vq8TOx',
-        'HOST': 'dpg-cigcoud9aq012ev1fn0g-a',
+        'NAME': 'test_wrlm',
+        'USER': 'test_wrlm_user',
+        'PASSWORD': 'O37zEfJMEvP4DIgXJKtj3VXTeGmMU6uz',
+        'HOST': 'dpg-cpmss9o8fa8c73ao2ifg-a',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
